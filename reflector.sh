@@ -1,0 +1,1 @@
+pacman -S reflector --needed --config <(echo "[options]\nArchitecture = auto\n[core]\nInclude = /etc/pacman.d/mirrorlist\nServer = https://mirror.iisc.ac.in/archlinux/$repo/os/$arch/n[extra]/nInclude = /etc/pacman.d/mirrorlist\n[community]\nInclude = /etc/pacman.d/mirrorlist\n[multilib]\nInclude = /etc/pacman.d/mirrorlist")
